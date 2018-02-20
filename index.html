@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gestão de Mudanças e Liberações</title>	
+	<style>
+	.modalDialog {
+		position: fixed;
+		font-family: Arial, Helvetica, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+
+	.modalDialog:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+
+	.modalDialog > div {
+		width: 600px;
+		position: relative;
+		margin: 10% auto;
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: #fff;
+		background: -moz-linear-gradient(#fff, #999);
+		background: -webkit-linear-gradient(#fff, #999);
+		background: -o-linear-gradient(#fff, #999);
+	}
+
+	.close {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+
+	.close:hover { background: #00d9ff; }
+	</style>
+</head>
+
+<body>
+
+<!-- <a href="#openModal">Open Modal</a> -->
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Título e Descrição Destalhada da Mudanças</h2>
+		<p>Titulo  da Mudança: deve  conter um resumo direto e assertivo do objetivo da mudança sempre com foco no  negócio.</p>
+        <p>Exemplo:  Implantação de reconhecimento  facial para saques em Caixas Eletrônicos.</p>
+        <p>Descrição  detalhada da mudança: deve  conter o detalhamento do Objetivo descrito no titulo, sempre com visão de  negócio.</p>
+      <p>Exemplo: Implantação de novas tecnologia  de reconhecimento facial para saques em caixas eletrônicos após as 22h,visando  maior segurança para nossos clientes e adequando nossa TI às normas SOX e  Basileia.</p>
+		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+	</div>
+</div>
+
+
+
+
+<body>
+<div><a href="Drag to a file to make a link."><img src="bg.png" width="911" height="515" usemap="#Map"></a>
+  <map name="Map">
+    <area shape="poly" coords="210,56,242,16,301,12,323,108,257,121,215,105" href="#openModal" target="new" alt="O que é uma mudança ? ">
+    <area shape="poly" coords="213,247,214,148,106,147,109,248" href="#">
+    <area shape="poly" coords="132,270,130,349,216,353,212,272" href="#">
+    <area shape="poly" coords="288,362,200,432,265,506,319,421" href="#">
+    <area shape="poly" coords="367,414,318,504,446,508,441,417" href="#">
+    <area shape="poly" coords="464,418,533,404,565,477,475,492" href="#">
+    <area shape="poly" coords="696,479,683,387,597,385,608,482" href="#">
+    <area shape="poly" coords="787,269,781,406,629,318" href="#">
+    <area shape="poly" coords="659,247,832,250,757,116,693,153" href="#">
+    <area shape="poly" coords="736,91,610,158,558,102,625,13" href="#">
+    <area shape="poly" coords="462,103,464,5,588,7,531,119" href="#">
+    <area shape="poly" coords="454,7,457,100,389,110,334,12" href="#">
+    <area shape="poly" coords="403,239,438,204,471,233,480,225,494,225,528,254,500,289,488,286,489,292,462,321,424,286,436,271" href="#">
+  </map>
+</div>
+
+
+</body>
+</html>
